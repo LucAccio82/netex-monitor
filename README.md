@@ -6,6 +6,8 @@ Monitoraggio quotidiano degli snapshot **NeTEx** pubblicati dal NAP CCISS per la
 Ogni giorno un workflow GitHub Actions controlla se ci sono nuove versioni; per ognuna scarica lo zip, ne analizza
 il contenuto e salva qui i risultati. Il build in OpenTripPlanner (che richiede ~20 GB di RAM) per ora resta sul PC locale.
 
+**→ [Report con tabella, avvisi aperti e grafici](risultati/REPORT.md)** · [storico completo](risultati/history.csv)
+
 ## Cosa viene controllato
 
 Per ogni nuova versione di ciascun livello:
@@ -30,8 +32,9 @@ intersecato con il `ValidBetween` della corsa.
 
 ## Dove guardare
 
+- `risultati/REPORT.md` – **report** aggiornato a ogni giro: situazione per regione e livello, avvisi aperti, grafici
 - `risultati/last_run.json` – esito dell'ultimo controllo
-- `risultati/history.csv` – storico (separatore `;`, apribile in Excel)
+- `risultati/history.csv` – storico, visualizzato da GitHub come tabella (separatore `,`; in Excel: Dati → Da testo/CSV)
 - `risultati/netex_monitor.log` – log (ultime 3000 righe)
 - scheda **Actions** – esecuzioni del workflow; un'esecuzione fallita viene notificata via email da GitHub
 
@@ -43,6 +46,7 @@ baseline.json          baseline per regione (modificabile a mano)
 script/check_netex.py      controllo giornaliero
 script/netex_operators.py  analisi del feed per operatore
 script/confronta_netex.py  confronto manuale tra due snapshot
+script/report.py           genera risultati/REPORT.md e risultati/grafici/
 interno/state.json     ultima versione vista per ogni livello (non modificare)
 risultati/             esiti
 .github/workflows/netex-monitor.yml   workflow pianificato

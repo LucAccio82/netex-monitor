@@ -35,5 +35,6 @@
   "operator_aliases": {
     "IT-ITF3-BUSITALIA_CAMPANIA": "IT:ITF3:Operator:06667530486:SA0057"
   },
-  "download_max_s": 3600
+  "download_max_s": 3600,
+  "history_delimiter": ","
 }

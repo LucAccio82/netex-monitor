@@ -1,6 +1,6 @@
-data;regione;livello;snapshot_id;file;status;corse;corse_attive_7gg;corse_attive_2_3sett;corse_scadute_pct;operatori_con_linee;baseline_corse_attive;attive_vs_baseline_pct;stops;patterns;patterns_removed;patterns_total_in_feed;isolated_stops;transfers;vertices;edges;stops_vs_prev_pct;patterns_vs_prev_pct
-2026-11-12T10:14:15;Campania;2;NUT-ITF3.LVL-2;IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip;build_ok;;;;;;;;5759;1809;;;198;43540;515362;1303477;;
-2026-11-12T10:14:15;Piemonte;2;NUT-ITC1.LVL-2;IT-CCISS-NeTEx_L2_ITC1_611120300_2026_11_12_08_46_33.xml.zip;build_ok;;;;;;;;19378;4763;873;5636;126;332979;2838013;7316652;;
-2026-11-16T10:04:21;Piemonte;2;NUT-ITC1.LVL-2;IT-CCISS-NeTEx_L2_ITC1_611160300_2026_11_16_09_15_46.xml.zip;build_ok;;;;;;;;19378;4763;873;5636;126;332949;2838011;7316650;0.0;0.0
-2026-11-17T10:10:00;Piemonte;2;NUT-ITC1.LVL-2;IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip;build_ok;;;;;;;;19378;4763;873;5636;126;332947;2838011;7316650;0.0;0.0
-2026-11-17T16:12:14;Piemonte;1;NUT-ITC1.LVL-1;IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip;feed_warning;85452;55888;45994;14.2;57;45994;0.0;;;;;;;;;;
+data,regione,livello,snapshot_id,file,status,corse,corse_attive_7gg,corse_attive_2_3sett,corse_scadute_pct,operatori_con_linee,baseline_corse_attive,attive_vs_baseline_pct,stops,patterns,patterns_removed,patterns_total_in_feed,isolated_stops,transfers,vertices,edges,stops_vs_prev_pct,patterns_vs_prev_pct
+2026-11-12T10:14:15,Campania,2,NUT-ITF3.LVL-2,IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip,build_ok,,,,,,,,5759,1809,,,198,43540,515362,1303477,,
+2026-11-12T10:14:15,Piemonte,2,NUT-ITC1.LVL-2,IT-CCISS-NeTEx_L2_ITC1_611120300_2026_11_12_08_46_33.xml.zip,build_ok,,,,,,,,19378,4763,873,5636,126,332979,2838013,7316652,,
+2026-11-16T10:04:21,Piemonte,2,NUT-ITC1.LVL-2,IT-CCISS-NeTEx_L2_ITC1_611160300_2026_11_16_09_15_46.xml.zip,build_ok,,,,,,,,19378,4763,873,5636,126,332949,2838011,7316650,0.0,0.0
+2026-11-17T10:10:00,Piemonte,2,NUT-ITC1.LVL-2,IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip,build_ok,,,,,,,,19378,4763,873,5636,126,332947,2838011,7316650,0.0,0.0
+2026-11-17T16:12:14,Piemonte,1,NUT-ITC1.LVL-1,IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip,feed_warning,85452,55888,45994,14.2,57,45994,0.0,,,,,,,,,,

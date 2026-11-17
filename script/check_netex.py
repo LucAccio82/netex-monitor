@@ -366,6 +366,18 @@ def baseline_step(base, region_name, analysed, baselines, cfg, prev_statuses):
     return warn, delta, notes, updated
 
 
+HIST_DELIM = ";"   # sovrascritto da config.json "history_delimiter"
+
+
+def _file_delim(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            head = f.readline()
+    except OSError:
+        return None
+    return ";" if head.count(";") > head.count(",") else ","
+
+
 HISTORY_FIELDS = ["data", "regione", "livello", "snapshot_id", "file", "status", "corse", "corse_attive_7gg",
                   "corse_attive_2_3sett", "corse_scadute_pct", "operatori_con_linee", "baseline_corse_attive",
                   "attive_vs_baseline_pct", "stops", "patterns", "patterns_removed", "patterns_total_in_feed",
@@ -376,18 +388,20 @@ def migrate_history():
     """Converte history.csv al formato a due livelli (una volta sola)."""
     if not os.path.exists(HISTORY):
         return
+    fd = _file_delim(HISTORY) or HIST_DELIM
     with open(HISTORY, encoding="utf-8") as f:
-        rows = list(csv.DictReader(f, delimiter=";"))
-    if rows and "livello" in rows[0]:
+        rows = list(csv.DictReader(f, delimiter=fd))
+    new_format = (rows and "livello" in rows[0]) or open(HISTORY, encoding="utf-8").readline().startswith(f"data{fd}regione{fd}livello")
+    if new_format and fd == HIST_DELIM:
         return
-    if not rows and open(HISTORY, encoding="utf-8").readline().startswith("data;regione;livello"):
-        return
-    os.replace(HISTORY, HISTORY + ".v1.bak")
+    if not new_format:
+        os.replace(HISTORY, HISTORY + ".v1.bak")
     with open(HISTORY, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=HISTORY_FIELDS, delimiter=";", extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=HISTORY_FIELDS, delimiter=HIST_DELIM, extrasaction="ignore")
         w.writeheader()
         for r in rows:
-            r["livello"] = r.get("snapshot_id", "").rsplit("-", 1)[-1]
+            if not r.get("livello"):
+                r["livello"] = r.get("snapshot_id", "").rsplit("-", 1)[-1]
             w.writerow(r)
 
 
@@ -406,7 +420,7 @@ def append_history_v2(region_name, lvl, sid, fname, status, fs, b_delta, stats, 
     row["patterns_vs_prev_pct"] = ((prev_delta or {}).get("patterns") or {}).get("change_pct", "")
     new = not os.path.exists(HISTORY)
     with open(HISTORY, "a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=HISTORY_FIELDS, delimiter=";", extrasaction="ignore")
+        w = csv.DictWriter(f, fieldnames=HISTORY_FIELDS, delimiter=HIST_DELIM, extrasaction="ignore")
         if new:
             w.writeheader()
         w.writerow(row)
@@ -516,6 +530,7 @@ def process_region(cfg, region, snapshots, state, args, run_date):
             state[sid] = {"modification_time": item["mod_time"], "file": fname, "sha256": item["sha"],
                           "last_status": res["status"], "checked_at": dt.datetime.now().isoformat(timespec="seconds"),
                           "transit_stats": prev.get("transit_stats"), "feed": res.get("feed") or prev.get("feed"),
+                          "warnings": warnings, "warnings_date": dt.date.today().isoformat(),
                           "operator_stats": netex_operators.compact(item["an"]) if item["an"] else prev.get("operator_stats")}
             save_json(STATE, state)
         todo_build = []
@@ -557,6 +572,7 @@ def process_region(cfg, region, snapshots, state, args, run_date):
             state[sid] = {"modification_time": item["mod_time"], "file": fname, "sha256": item["sha"],
                           "last_status": res["status"], "checked_at": dt.datetime.now().isoformat(timespec="seconds"),
                           "transit_stats": stats if graph_ok else prev.get("transit_stats"),
+                          "warnings": warnings, "warnings_date": dt.date.today().isoformat(),
                           "feed": res.get("feed") or prev.get("feed"),
                           "operator_stats": netex_operators.compact(item["an"]) if item["an"] else prev.get("operator_stats")}
             save_json(STATE, state)
@@ -590,6 +606,7 @@ def process_region(cfg, region, snapshots, state, args, run_date):
                         log.warning("[%s] rianalisi LVL-%d per la coerenza fallita: %s", base, l, e)
         if 1 in ans and 2 in ans:
             consistency = netex_operators.level_consistency(ans[1], ans[2], cfg.get("level_consistency_tol_pct", 10))
+            state.setdefault(base, {})["consistency"] = {"warnings": consistency, "date": dt.date.today().isoformat()}
             for w in consistency:
                 log.warning("[%s] %s", base, w)
 
@@ -636,7 +653,8 @@ def main():
     if cfg is None:
         log.error("config.json mancante in %s", MON)
         sys.exit(2)
-    global OTP_ROOT
+    global OTP_ROOT, HIST_DELIM
+    HIST_DELIM = cfg.get("history_delimiter", ";")
     if cfg.get("otp_root"):   # es. "work" su GitHub: cartelle regione relative a netex_monitor/work
         OTP_ROOT = os.path.abspath(os.path.join(MON, cfg["otp_root"]))
         os.makedirs(OTP_ROOT, exist_ok=True)

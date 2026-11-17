@@ -31,6 +31,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: .github/workflows/netex-monitor.yml
 
       - name: Controllo snapshot NeTEx (livelli 1 e 2)
         id: check
@@ -38,6 +40,12 @@ jobs:
         env:
           OPZIONI: ${{ inputs.opzioni }}
         run: python script/check_netex.py $OPZIONI
+
+      - name: Report e grafici
+        if: always()
+        run: |
+          pip install --quiet matplotlib
+          python script/report.py
 
       - name: Limita la lunghezza del log
         run: |
