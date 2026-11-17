@@ -18,11 +18,11 @@
   "NUT-ITC1": {
     "region": "Piemonte",
     "metric": "sj_active_horizon",
-    "value": 39621,
-    "level": "LVL-2",
-    "file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
-    "set_at": "2026-11-17T11:00:06",
-    "set_by": "migrazione 17/11 (L2 del 17/11)",
+    "value": 45994,
+    "level": "LVL-1",
+    "file": "IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip",
+    "set_at": "2026-11-17T16:12:14",
+    "set_by": "auto (crescita oltre soglia)",
     "legacy_otp": {
       "region": "Piemonte",
       "stops": 19378,

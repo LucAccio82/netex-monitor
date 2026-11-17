@@ -1403,5 +1403,1643 @@
         }
       }
     }
+  },
+  "NUT-ITC1.LVL-1": {
+    "modification_time": "2026-11-17T07:31:59.746+00:00",
+    "file": "IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip",
+    "sha256": "1a5c3d1f5d87d6ae42f704480e31c5c826afe043a04bdc5ed0eec6c15601ea8a",
+    "last_status": "feed_warning",
+    "checked_at": "2026-11-17T16:12:14",
+    "transit_stats": null,
+    "feed": {
+      "ref_date": "2026-11-17",
+      "windows": {
+        "now": [
+          "2026-11-17",
+          "2026-11-23"
+        ],
+        "horizon": [
+          "2026-12-01",
+          "2026-12-07"
+        ]
+      },
+      "lines": 1133,
+      "stop_places": 30026,
+      "service_journeys": 85452,
+      "sj_active_now": 55888,
+      "sj_active_horizon": 45994,
+      "sj_expired": 12098,
+      "sj_expired_pct": 14.2,
+      "operators_with_lines": 57
+    },
+    "operator_stats": {
+      "file": "IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip",
+      "seconds": 39,
+      "ref_date": "2026-11-17",
+      "windows": {
+        "now": [
+          "2026-11-17",
+          "2026-11-23"
+        ],
+        "horizon": [
+          "2026-12-01",
+          "2026-12-07"
+        ]
+      },
+      "totals": {
+        "Line": 1133,
+        "StopPlace": 30026,
+        "ServiceJourney": 85452,
+        "sj_active_now": 55888,
+        "sj_active_horizon": 45994,
+        "sj_expired": 12098,
+        "DayType": 10799,
+        "unattributed_sj": 0,
+        "sj_expired_pct": 14.2
+      },
+      "operators": {
+        "IT:ITC1:Operator:_Business_Owner_at_Location": {
+          "name": "(Business Owner at Location)",
+          "ids": [
+            "IT:ITC1:Operator:_Business_Owner_at_Location"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:_Unknown_Operator": {
+          "name": "(Unknown Operator)",
+          "ids": [
+            "IT:ITC1:Operator:_Unknown_Operator"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::53:op:1": {
+          "name": "5T S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator::53:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01537000026:8:op:1": {
+          "name": "A.T.A.P.",
+          "ids": [
+            "IT:ITC1:Operator:01537000026:8:op:1"
+          ],
+          "lines": 68,
+          "service_journeys": 1382,
+          "sj_active_now": 1238,
+          "sj_active_horizon": 1290,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 68
+          }
+        },
+        "IT:ITC1:Operator:00468420013:301:OP:9": {
+          "name": "A.T.A.V. Vigo Spa",
+          "ids": [
+            "IT:ITC1:Operator:00468420013:301:OP:9"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::ACI": {
+          "name": "Acimmagine Srl",
+          "ids": [
+            "IT:ITC1:Operator::ACI"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:03186890046:301:OP:2": {
+          "name": "ACTP S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:03186890046:301:OP:2"
+          ],
+          "lines": 5,
+          "service_journeys": 13,
+          "sj_active_now": 13,
+          "sj_active_horizon": 13,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 5
+          }
+        },
+        "IT:ITC1:Operator:XZ": {
+          "name": "AEROITALIA",
+          "ids": [
+            "IT:ITC1:Operator:XZ"
+          ],
+          "lines": 6,
+          "service_journeys": 14,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 14,
+          "modes": {
+            "bus": 6
+          }
+        },
+        "IT:ITC1:Operator:AF": {
+          "name": "AIR FRANCE",
+          "ids": [
+            "IT:ITC1:Operator:AF"
+          ],
+          "lines": 2,
+          "service_journeys": 42,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 42,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:Alperia_IT": {
+          "name": "Alperia (IT)",
+          "ids": [
+            "IT:ITC1:Operator:Alperia_IT"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:02509450066:13:op:1": {
+          "name": "AMAG",
+          "ids": [
+            "IT:ITC1:Operator:02509450066:13:op:1"
+          ],
+          "lines": 16,
+          "service_journeys": 518,
+          "sj_active_now": 518,
+          "sj_active_horizon": 518,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 16
+          }
+        },
+        "IT:ITC1:Operator::APCOA": {
+          "name": "APCOA PARKING Italia S.p.A.",
+          "ids": [
+            "IT:ITC1:Operator::APCOA"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::301:OP:78": {
+          "name": "Arenaways",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:78"
+          ],
+          "lines": 2,
+          "service_journeys": 28,
+          "sj_active_now": 28,
+          "sj_active_horizon": 28,
+          "sj_expired": 0,
+          "modes": {
+            "rail": 1,
+            "bus": 1
+          }
+        },
+        "IT:ITC1:Operator::36:op:1": {
+          "name": "Arriva Italia",
+          "ids": [
+            "IT:ITC1:Operator::36:op:1"
+          ],
+          "lines": 30,
+          "service_journeys": 1655,
+          "sj_active_now": 1590,
+          "sj_active_horizon": 1645,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 30
+          }
+        },
+        "IT:ITC1:Operator:01142420056:7:op:1": {
+          "name": "ASP",
+          "ids": [
+            "IT:ITC1:Operator:01142420056:7:op:1"
+          ],
+          "lines": 31,
+          "service_journeys": 370,
+          "sj_active_now": 370,
+          "sj_active_horizon": 370,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 31
+          }
+        },
+        "IT:ITC1:Operator:Atlante": {
+          "name": "Atlante",
+          "ids": [
+            "IT:ITC1:Operator:Atlante"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::301:OP:76": {
+          "name": "Autolinee Acquesi",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:76"
+          ],
+          "lines": 2,
+          "service_journeys": 14,
+          "sj_active_now": 14,
+          "sj_active_horizon": 14,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator::19:op:1": {
+          "name": "AUTOLINEE ACQUESI",
+          "ids": [
+            "IT:ITC1:Operator::19:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01389420066:76:op:1": {
+          "name": "AUTOLINEE ACQUESI",
+          "ids": [
+            "IT:ITC1:Operator:01389420066:76:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:00722590049:301:OP:4": {
+          "name": "Autolinee Allasia S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00722590049:301:OP:4"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:00060360054:301:OP:23": {
+          "name": "Autolinee Giachino S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00060360054:301:OP:23"
+          ],
+          "lines": 27,
+          "service_journeys": 408,
+          "sj_active_now": 391,
+          "sj_active_horizon": 400,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 27
+          }
+        },
+        "IT:ITC1:Operator:00169440047:301:OP:31": {
+          "name": "Autolinee Nuova Benese S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00169440047:301:OP:31"
+          ],
+          "lines": 11,
+          "service_journeys": 229,
+          "sj_active_now": 205,
+          "sj_active_horizon": 225,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 11
+          }
+        },
+        "IT:ITC1:Operator:00892260068:44:op:1": {
+          "name": "AUTOLINEE VAL BORBERA",
+          "ids": [
+            "IT:ITC1:Operator:00892260068:44:op:1"
+          ],
+          "lines": 2,
+          "service_journeys": 46,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 46,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator::301:OP:44": {
+          "name": "Autolinee Val Borbera",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:44"
+          ],
+          "lines": 5,
+          "service_journeys": 52,
+          "sj_active_now": 52,
+          "sj_active_horizon": 52,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 5
+          }
+        },
+        "IT:ITC1:Operator:01861030045:301:OP:45": {
+          "name": "Autolinee Valle Pesio S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:01861030045:301:OP:45"
+          ],
+          "lines": 1,
+          "service_journeys": 46,
+          "sj_active_now": 44,
+          "sj_active_horizon": 46,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 1
+          }
+        },
+        "IT:ITC1:Operator:00125480038:51:op:1": {
+          "name": "Autoservizi Comazzi S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00125480038:51:op:1"
+          ],
+          "lines": 25,
+          "service_journeys": 291,
+          "sj_active_now": 291,
+          "sj_active_horizon": 291,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 25
+          }
+        },
+        "IT:ITC1:Operator:04924720156:11:op:1": {
+          "name": "Autostradale S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:04924720156:11:op:1"
+          ],
+          "lines": 1,
+          "service_journeys": 10,
+          "sj_active_now": 10,
+          "sj_active_horizon": 10,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 1
+          }
+        },
+        "IT:ITC1:Operator:01639620069:5:op:1": {
+          "name": "Azienda Multiservizi Casalese S.p.A.",
+          "ids": [
+            "IT:ITC1:Operator:01639620069:5:op:1"
+          ],
+          "lines": 7,
+          "service_journeys": 76,
+          "sj_active_now": 76,
+          "sj_active_horizon": 76,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 7
+          }
+        },
+        "IT:ITC1:Operator::301:OP:301": {
+          "name": "Bacino Cuneo",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:301"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:00434360038:14:op:1": {
+          "name": "Baranzelli Natur S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00434360038:14:op:1"
+          ],
+          "lines": 7,
+          "service_journeys": 134,
+          "sj_active_now": 134,
+          "sj_active_horizon": 132,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 7
+          }
+        },
+        "IT:ITC1:Operator:Be_Charge_Italy": {
+          "name": "Be Charge (Italy)",
+          "ids": [
+            "IT:ITC1:Operator:Be_Charge_Italy"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:BeCharged": {
+          "name": "BeCharged",
+          "ids": [
+            "IT:ITC1:Operator:BeCharged"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01803090016:15:op:1": {
+          "name": "BELLANDO TOURS",
+          "ids": [
+            "IT:ITC1:Operator:01803090016:15:op:1"
+          ],
+          "lines": 5,
+          "service_journeys": 73,
+          "sj_active_now": 72,
+          "sj_active_horizon": 73,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 5
+          }
+        },
+        "IT:ITC1:Operator::B-I-P": {
+          "name": "Best in Parking AG",
+          "ids": [
+            "IT:ITC1:Operator::B-I-P"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:10508510962:bird": {
+          "name": "bird",
+          "ids": [
+            "IT:ITC1:Operator:10508510962:bird"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:BLUETORINO": {
+          "name": "BLUETORINO",
+          "ids": [
+            "IT:ITC1:Operator:BLUETORINO"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:04922550019:61:op:1": {
+          "name": "BOUCHARD",
+          "ids": [
+            "IT:ITC1:Operator:04922550019:61:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:A0": {
+          "name": "BRITISH AIRWAYS",
+          "ids": [
+            "IT:ITC1:Operator:A0"
+          ],
+          "lines": 2,
+          "service_journeys": 10,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 10,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:00893890012:301:OP:39": {
+          "name": "BUS COMPANY",
+          "ids": [
+            "IT:ITC1:Operator:00893890012:301:OP:39"
+          ],
+          "lines": 187,
+          "service_journeys": 3734,
+          "sj_active_now": 3455,
+          "sj_active_horizon": 3690,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 187
+          }
+        },
+        "IT:ITC1:Operator:04915230017:26:op:1": {
+          "name": "CA.NOVA AUTOSERVIZI",
+          "ids": [
+            "IT:ITC1:Operator:04915230017:26:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:00519860019:16:op:1": {
+          "name": "Cavourese S.p.A.",
+          "ids": [
+            "IT:ITC1:Operator:00519860019:16:op:1"
+          ],
+          "lines": 34,
+          "service_journeys": 759,
+          "sj_active_now": 759,
+          "sj_active_horizon": 759,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 34
+          }
+        },
+        "IT:ITC1:Operator:05388950015:17:op:1": {
+          "name": "CHIESA",
+          "ids": [
+            "IT:ITC1:Operator:05388950015:17:op:1"
+          ],
+          "lines": 1,
+          "service_journeys": 4,
+          "sj_active_now": 4,
+          "sj_active_horizon": 4,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 1
+          }
+        },
+        "IT:ITC1:Operator::301:OP:204": {
+          "name": "COAS",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:204"
+          ],
+          "lines": 8,
+          "service_journeys": 110,
+          "sj_active_now": 110,
+          "sj_active_horizon": 98,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 8
+          }
+        },
+        "IT:ITC1:Operator::301:OP:202": {
+          "name": "Consorzio GrandaBus",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:202"
+          ],
+          "lines": 21,
+          "service_journeys": 858,
+          "sj_active_now": 768,
+          "sj_active_horizon": 858,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 21
+          }
+        },
+        "IT:ITC1:Operator:02995120041:301:OP:70": {
+          "name": "Consorzio GrandaBus",
+          "ids": [
+            "IT:ITC1:Operator:02995120041:301:OP:70"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:02224560561:cooltra": {
+          "name": "cooltra",
+          "ids": [
+            "IT:ITC1:Operator:02224560561:cooltra"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:DN": {
+          "name": "DAN AIR",
+          "ids": [
+            "IT:ITC1:Operator:DN"
+          ],
+          "lines": 2,
+          "service_journeys": 4,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 4,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator::dott": {
+          "name": "dott",
+          "ids": [
+            "IT:ITC1:Operator::dott"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:Duferco_Energie": {
+          "name": "Duferco Energie",
+          "ids": [
+            "IT:ITC1:Operator:Duferco_Energie"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:Electra": {
+          "name": "Electra",
+          "ids": [
+            "IT:ITC1:Operator:Electra"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:Enel_X": {
+          "name": "Enel X",
+          "ids": [
+            "IT:ITC1:Operator:Enel_X"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:Evway": {
+          "name": "Evway",
+          "ids": [
+            "IT:ITC1:Operator:Evway"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:Ewiva_IT": {
+          "name": "Ewiva (IT)",
+          "ids": [
+            "IT:ITC1:Operator:Ewiva_IT"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::201:cons:1": {
+          "name": "Extra.TO",
+          "ids": [
+            "IT:ITC1:Operator::201:cons:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::301:OP:201": {
+          "name": "EXTRA.TO S.c.arl.",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:201"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::301:OP:DAAS": {
+          "name": "EXTRA.TO S.c.arl.",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:DAAS"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:AY": {
+          "name": "FINNAIR",
+          "ids": [
+            "IT:ITC1:Operator:AY"
+          ],
+          "lines": 2,
+          "service_journeys": 4,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 4,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:00475230017:62:op:1": {
+          "name": "FURNO",
+          "ids": [
+            "IT:ITC1:Operator:00475230017:62:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01025640051:301:OP:21": {
+          "name": "Gelosobus S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:01025640051:301:OP:21"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:04920690015:22:op:1": {
+          "name": "GHERRA",
+          "ids": [
+            "IT:ITC1:Operator:04920690015:22:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:02997960048:301:OP:24": {
+          "name": "Giors S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:02997960048:301:OP:24"
+          ],
+          "lines": 2,
+          "service_journeys": 18,
+          "sj_active_now": 14,
+          "sj_active_horizon": 18,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator::GSR": {
+          "name": "Grandi Stazioni Rail S.p.A.",
+          "ids": [
+            "IT:ITC1:Operator::GSR"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:08559940013:1:op:1": {
+          "name": "Gruppo Torinese Trasporti",
+          "ids": [
+            "IT:ITC1:Operator:08559940013:1:op:1"
+          ],
+          "lines": 297,
+          "service_journeys": 66221,
+          "sj_active_now": 43177,
+          "sj_active_horizon": 32818,
+          "sj_expired": 6267,
+          "modes": {
+            "bus": 296,
+            "metro": 1
+          }
+        },
+        "IT:ITC1:Operator::GTT": {
+          "name": "Gruppo Torinese Trasporti S.p.A.",
+          "ids": [
+            "IT:ITC1:Operator::GTT"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:00166980045:301:OP:25": {
+          "name": "GUNETTO Autolinee S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00166980045:301:OP:25"
+          ],
+          "lines": 7,
+          "service_journeys": 157,
+          "sj_active_now": 139,
+          "sj_active_horizon": 150,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 7
+          }
+        },
+        "IT:ITC1:Operator::helbiz": {
+          "name": "helbiz",
+          "ids": [
+            "IT:ITC1:Operator::helbiz"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:IB": {
+          "name": "IBERIA AIRLINES",
+          "ids": [
+            "IT:ITC1:Operator:IB"
+          ],
+          "lines": 2,
+          "service_journeys": 14,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 14,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:AZ": {
+          "name": "ITA",
+          "ids": [
+            "IT:ITC1:Operator:AZ"
+          ],
+          "lines": 2,
+          "service_journeys": 56,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 56,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:KL": {
+          "name": "KLM",
+          "ids": [
+            "IT:ITC1:Operator:KL"
+          ],
+          "lines": 2,
+          "service_journeys": 27,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 27,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:Lidl": {
+          "name": "Lidl",
+          "ids": [
+            "IT:ITC1:Operator:Lidl"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:10439810960:lime": {
+          "name": "lime",
+          "ids": [
+            "IT:ITC1:Operator:10439810960:lime"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::LINGOTTO": {
+          "name": "Lingotto 2000 S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator::LINGOTTO"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:LH": {
+          "name": "LUFTHANSA",
+          "ids": [
+            "IT:ITC1:Operator:LH"
+          ],
+          "lines": 4,
+          "service_journeys": 50,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 50,
+          "modes": {
+            "bus": 4
+          }
+        },
+        "IT:ITC1:Operator:EN": {
+          "name": "LUFTHANSA - AIR DOLOMITI",
+          "ids": [
+            "IT:ITC1:Operator:EN"
+          ],
+          "lines": 4,
+          "service_journeys": 26,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 26,
+          "modes": {
+            "bus": 4
+          }
+        },
+        "IT:ITC1:Operator:01494450065:134:op:1": {
+          "name": "MAESTRI AUTOSERVIZI",
+          "ids": [
+            "IT:ITC1:Operator:01494450065:134:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::301:OP:27": {
+          "name": "Maestri Autoservizi",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:27"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::999:op:1": {
+          "name": "Magazzino Telos",
+          "ids": [
+            "IT:ITC1:Operator::999:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:00890580053:64:op:1": {
+          "name": "MARLETTI AUTOLINEE SRL",
+          "ids": [
+            "IT:ITC1:Operator:00890580053:64:op:1"
+          ],
+          "lines": 4,
+          "service_journeys": 44,
+          "sj_active_now": 44,
+          "sj_active_horizon": 44,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 4
+          }
+        },
+        "IT:ITC1:Operator::28:op:1": {
+          "name": "MARTOGLIO",
+          "ids": [
+            "IT:ITC1:Operator::28:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::65:op:1": {
+          "name": "MENINI",
+          "ids": [
+            "IT:ITC1:Operator::65:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::MPK": {
+          "name": "Metropark S.p.A.",
+          "ids": [
+            "IT:ITC1:Operator::MPK"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:161": {
+          "name": "Nav lago maggiore",
+          "ids": [
+            "IT:ITC1:Operator:161"
+          ],
+          "lines": 69,
+          "service_journeys": 735,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 735,
+          "modes": {
+            "water": 69
+          }
+        },
+        "IT:ITC1:Operator::29:op:1": {
+          "name": "NOVARESE (OBSL)",
+          "ids": [
+            "IT:ITC1:Operator::29:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:02118100045:301:OP:32": {
+          "name": "Nuova S.A.A.R. S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:02118100045:301:OP:32"
+          ],
+          "lines": 8,
+          "service_journeys": 76,
+          "sj_active_now": 71,
+          "sj_active_horizon": 76,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 8
+          }
+        },
+        "IT:ITC1:Operator::P.I.": {
+          "name": "Parcheggi Italia S.p.A.",
+          "ids": [
+            "IT:ITC1:Operator::P.I."
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:00217930031:74:op:1": {
+          "name": "Pirazzi Autoservizi S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00217930031:74:op:1"
+          ],
+          "lines": 1,
+          "service_journeys": 24,
+          "sj_active_now": 24,
+          "sj_active_horizon": 22,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 1
+          }
+        },
+        "IT:ITC1:Operator:POWY": {
+          "name": "POWY",
+          "ids": [
+            "IT:ITC1:Operator:POWY"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::71:op:1": {
+          "name": "Provider Extra.TO",
+          "ids": [
+            "IT:ITC1:Operator::71:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::301:op:1": {
+          "name": "Provider Formula",
+          "ids": [
+            "IT:ITC1:Operator::301:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::50:op:1": {
+          "name": "REGIONE PIEMONTE",
+          "ids": [
+            "IT:ITC1:Operator::50:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:02838590343:ridemovi": {
+          "name": "ridemovi",
+          "ids": [
+            "IT:ITC1:Operator:02838590343:ridemovi"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01494260084:301:OP:47": {
+          "name": "Riviera Trasporti Piemonte S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:01494260084:301:OP:47"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:AT": {
+          "name": "ROYAL AIR MAROC",
+          "ids": [
+            "IT:ITC1:Operator:AT"
+          ],
+          "lines": 2,
+          "service_journeys": 8,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 8,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:FR": {
+          "name": "RYANAIR",
+          "ids": [
+            "IT:ITC1:Operator:FR"
+          ],
+          "lines": 62,
+          "service_journeys": 370,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 370,
+          "modes": {
+            "bus": 62
+          }
+        },
+        "IT:ITC1:Operator:00466840048:301:OP:35": {
+          "name": "S.A.C. S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00466840048:301:OP:35"
+          ],
+          "lines": 10,
+          "service_journeys": 213,
+          "sj_active_now": 205,
+          "sj_active_horizon": 213,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 10
+          }
+        },
+        "IT:ITC1:Operator:00113970032:73:op:1": {
+          "name": "S.A.F. S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00113970032:73:op:1"
+          ],
+          "lines": 7,
+          "service_journeys": 146,
+          "sj_active_now": 146,
+          "sj_active_horizon": 144,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 7
+          }
+        },
+        "IT:ITC1:Operator::301:OP:203": {
+          "name": "S.C. Alessandrina Trasporti A R.L..",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:203"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:02922940016:66:op:1": {
+          "name": "S.T.A.A.V.",
+          "ids": [
+            "IT:ITC1:Operator:02922940016:66:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01760990067:40:op:1": {
+          "name": "S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI",
+          "ids": [
+            "IT:ITC1:Operator:01760990067:40:op:1"
+          ],
+          "lines": 12,
+          "service_journeys": 209,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 209,
+          "modes": {
+            "bus": 12
+          }
+        },
+        "IT:ITC1:Operator:00280830043:301:OP:38": {
+          "name": "SAV Autolinee S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:00280830043:301:OP:38"
+          ],
+          "lines": 7,
+          "service_journeys": 106,
+          "sj_active_now": 94,
+          "sj_active_horizon": 106,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 7
+          }
+        },
+        "IT:ITC1:Operator::302:op:1": {
+          "name": "SCAT",
+          "ids": [
+            "IT:ITC1:Operator::302:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:05718200016:67:op:1": {
+          "name": "SEREN BERNADONE",
+          "ids": [
+            "IT:ITC1:Operator:05718200016:67:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01629110030:52:op:1": {
+          "name": "Societa Trasporti Novaresi S.r.l. a socio unico",
+          "ids": [
+            "IT:ITC1:Operator:01629110030:52:op:1"
+          ],
+          "lines": 8,
+          "service_journeys": 156,
+          "sj_active_now": 156,
+          "sj_active_horizon": 154,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 8
+          }
+        },
+        "IT:ITC1:Operator::301:OP:40": {
+          "name": "STAC Autoticino",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:40"
+          ],
+          "lines": 14,
+          "service_journeys": 235,
+          "sj_active_now": 227,
+          "sj_active_horizon": 228,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 14
+          }
+        },
+        "IT:ITC1:Operator::301:OP:75": {
+          "name": "STP Cuneo",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:75"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator::41:OP:41": {
+          "name": "SUN",
+          "ids": [
+            "IT:ITC1:Operator::41:OP:41"
+          ],
+          "lines": 32,
+          "service_journeys": 1213,
+          "sj_active_now": 1213,
+          "sj_active_horizon": 1188,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 32
+          }
+        },
+        "IT:ITC1:Operator:Tesla_including_non-tesla": {
+          "name": "Tesla (including non-tesla)",
+          "ids": [
+            "IT:ITC1:Operator:Tesla_including_non-tesla"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:Tesla_Tesla-only_charging": {
+          "name": "Tesla (Tesla-only charging)",
+          "ids": [
+            "IT:ITC1:Operator:Tesla_Tesla-only_charging"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:83": {
+          "name": "TRENITALIA",
+          "ids": [
+            "IT:ITC1:Operator:83"
+          ],
+          "lines": 7,
+          "service_journeys": 3992,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 3992,
+          "modes": {
+            "rail": 6,
+            "bus": 1
+          }
+        },
+        "IT:ITC1:Operator::301:OP:72": {
+          "name": "Trotta Bus",
+          "ids": [
+            "IT:ITC1:Operator::301:OP:72"
+          ],
+          "lines": 12,
+          "service_journeys": 160,
+          "sj_active_now": 152,
+          "sj_active_horizon": 158,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 12
+          }
+        },
+        "IT:ITC1:Operator:TK": {
+          "name": "TURKISH AIRLINES",
+          "ids": [
+            "IT:ITC1:Operator:TK"
+          ],
+          "lines": 2,
+          "service_journeys": 14,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 14,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:00035670074:49:op:1": {
+          "name": "V.I.T.A.",
+          "ids": [
+            "IT:ITC1:Operator:00035670074:49:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:01792330035:46:op:1": {
+          "name": "VCO Trasporti S.r.l.",
+          "ids": [
+            "IT:ITC1:Operator:01792330035:46:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:02080670017:68:op:1": {
+          "name": "VI.MU. - VIAGGI F.LLI MUNARO di MUNARO LORENZO E RICCARDO",
+          "ids": [
+            "IT:ITC1:Operator:02080670017:68:op:1"
+          ],
+          "lines": 16,
+          "service_journeys": 88,
+          "sj_active_now": 84,
+          "sj_active_horizon": 83,
+          "sj_expired": 0,
+          "modes": {
+            "bus": 16
+          }
+        },
+        "IT:ITC1:Operator:00488600016:48:op:1": {
+          "name": "VIGO AUTOINDUSTRIALE",
+          "ids": [
+            "IT:ITC1:Operator:00488600016:48:op:1"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:10803100964:voi": {
+          "name": "voi",
+          "ids": [
+            "IT:ITC1:Operator:10803100964:voi"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:V7": {
+          "name": "VOLOTEA",
+          "ids": [
+            "IT:ITC1:Operator:V7"
+          ],
+          "lines": 4,
+          "service_journeys": 18,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 18,
+          "modes": {
+            "bus": 4
+          }
+        },
+        "IT:ITC1:Operator:Volta_Charging": {
+          "name": "Volta Charging",
+          "ids": [
+            "IT:ITC1:Operator:Volta_Charging"
+          ],
+          "lines": 0,
+          "service_journeys": 0,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 0,
+          "modes": {}
+        },
+        "IT:ITC1:Operator:VY": {
+          "name": "VUELING AIRLINES",
+          "ids": [
+            "IT:ITC1:Operator:VY"
+          ],
+          "lines": 2,
+          "service_journeys": 32,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 32,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:W4": {
+          "name": "WIZZ AIR",
+          "ids": [
+            "IT:ITC1:Operator:W4"
+          ],
+          "lines": 20,
+          "service_journeys": 148,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 148,
+          "modes": {
+            "bus": 20
+          }
+        },
+        "IT:ITC1:Operator:W6": {
+          "name": "WIZZ AIR",
+          "ids": [
+            "IT:ITC1:Operator:W6"
+          ],
+          "lines": 2,
+          "service_journeys": 6,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 6,
+          "modes": {
+            "bus": 2
+          }
+        },
+        "IT:ITC1:Operator:W9": {
+          "name": "WIZZ AIR UK LIMITED",
+          "ids": [
+            "IT:ITC1:Operator:W9"
+          ],
+          "lines": 2,
+          "service_journeys": 6,
+          "sj_active_now": 0,
+          "sj_active_horizon": 0,
+          "sj_expired": 6,
+          "modes": {
+            "bus": 2
+          }
+        }
+      }
+    }
   }
 }
