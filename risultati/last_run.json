@@ -1,0 +1,177 @@
+{
+  "run_at": "2026-11-17T15:27:07",
+  "dry_run": true,
+  "regions": [
+    {
+      "region": "Campania",
+      "base": "NUT-ITF3",
+      "folder": "CAMPANIA",
+      "graph": null,
+      "baseline": {
+        "region": "Campania",
+        "metric": "sj_active_horizon",
+        "value": 55139,
+        "level": "LVL-1",
+        "file": "IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip",
+        "set_at": "2026-11-17T11:00:06",
+        "set_by": "migrazione 17/11 (L1 del 01/11, il feed piu' completo)",
+        "legacy_otp": {
+          "region": "Campania",
+          "stops": 21412,
+          "patterns": 4975,
+          "file": "IT-CCISS-NeTEx_L2_ITF3_610170400_2026_10_17_09_15_51.xml.zip",
+          "set_at": "2026-11-12 (manuale, valori del build 21/10 su snapshot 17/10)"
+        }
+      },
+      "notes": [],
+      "consistency_warnings": [],
+      "levels": [
+        {
+          "level": 1,
+          "snapshot_id": "NUT-ITF3.LVL-1",
+          "status": "no_update",
+          "remote_modification_time": "2026-11-01T06:46:52.934+00:00",
+          "remote_file": "IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip",
+          "current_file": "IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip",
+          "feed": {
+            "ref_date": "2026-11-17",
+            "windows": {
+              "now": [
+                "2026-11-17",
+                "2026-11-23"
+              ],
+              "horizon": [
+                "2026-12-01",
+                "2026-12-07"
+              ]
+            },
+            "lines": 845,
+            "stop_places": 26847,
+            "service_journeys": 74828,
+            "sj_active_now": 60854,
+            "sj_active_horizon": 55139,
+            "sj_expired": 11538,
+            "sj_expired_pct": 15.4,
+            "operators_with_lines": 9
+          },
+          "transit_stats": {
+            "stops": 26847,
+            "patterns": 6173,
+            "fonte": "build manuale di Luca, 17/11/2026"
+          }
+        },
+        {
+          "level": 2,
+          "snapshot_id": "NUT-ITF3.LVL-2",
+          "status": "no_update",
+          "remote_modification_time": "2026-10-30T07:21:18.147+00:00",
+          "remote_file": "IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip",
+          "current_file": "IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip",
+          "feed": {
+            "ref_date": "2026-11-17",
+            "windows": {
+              "now": [
+                "2026-11-17",
+                "2026-11-23"
+              ],
+              "horizon": [
+                "2026-12-01",
+                "2026-12-07"
+              ]
+            },
+            "lines": 150,
+            "stop_places": 5759,
+            "service_journeys": 13885,
+            "sj_active_now": 3024,
+            "sj_active_horizon": 3024,
+            "sj_expired": 10856,
+            "sj_expired_pct": 78.2,
+            "operators_with_lines": 3
+          },
+          "transit_stats": {
+            "stops": 5759,
+            "patterns": 1809,
+            "constrained_transfers": 0,
+            "vertices": 515362,
+            "edges": 1303477,
+            "isolated_stops": 198,
+            "transfers": 43540
+          }
+        }
+      ]
+    },
+    {
+      "region": "Piemonte",
+      "base": "NUT-ITC1",
+      "folder": "PIEMONTE",
+      "graph": null,
+      "baseline": {
+        "region": "Piemonte",
+        "metric": "sj_active_horizon",
+        "value": 39621,
+        "level": "LVL-2",
+        "file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
+        "set_at": "2026-11-17T11:00:06",
+        "set_by": "migrazione 17/11 (L2 del 17/11)",
+        "legacy_otp": {
+          "region": "Piemonte",
+          "stops": 19378,
+          "patterns": 4763,
+          "file": "IT-CCISS-NeTEx_L2_ITC1_611120300_2026_11_12_08_46_33.xml.zip",
+          "set_at": "2026-11-12T10:14:15"
+        }
+      },
+      "notes": [],
+      "consistency_warnings": [],
+      "levels": [
+        {
+          "level": 1,
+          "snapshot_id": "NUT-ITC1.LVL-1",
+          "status": "update_available",
+          "remote_modification_time": "2026-11-17T07:31:59.746+00:00",
+          "remote_file": "IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip"
+        },
+        {
+          "level": 2,
+          "snapshot_id": "NUT-ITC1.LVL-2",
+          "status": "no_update",
+          "remote_modification_time": "2026-11-17T08:12:12.834+00:00",
+          "remote_file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
+          "current_file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
+          "feed": {
+            "ref_date": "2026-11-17",
+            "windows": {
+              "now": [
+                "2026-11-17",
+                "2026-11-23"
+              ],
+              "horizon": [
+                "2026-12-01",
+                "2026-12-07"
+              ]
+            },
+            "lines": 611,
+            "stop_places": 19378,
+            "service_journeys": 76568,
+            "sj_active_now": 49906,
+            "sj_active_horizon": 39621,
+            "sj_expired": 9671,
+            "sj_expired_pct": 12.6,
+            "operators_with_lines": 21
+          },
+          "transit_stats": {
+            "stops": 19378,
+            "patterns": 4763,
+            "constrained_transfers": 0,
+            "vertices": 2838011,
+            "edges": 7316650,
+            "patterns_removed": 873,
+            "patterns_total_in_feed": 5636,
+            "isolated_stops": 126,
+            "transfers": 332947
+          }
+        }
+      ]
+    }
+  ]
+}
