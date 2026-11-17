@@ -1,0 +1,38 @@
+{
+  "api_url": "https://www.cciss.it/nap/public/api/v1/netex/db/snapshot",
+  "otp_root": "work",
+  "build_enabled": false,
+  "keep_old_zips": 1,
+  "regions": [
+    {
+      "name": "Campania",
+      "snapshot_base": "NUT-ITF3",
+      "levels": [
+        1,
+        2
+      ],
+      "folder": "CAMPANIA"
+    },
+    {
+      "name": "Piemonte",
+      "snapshot_base": "NUT-ITC1",
+      "levels": [
+        1,
+        2
+      ],
+      "folder": "PIEMONTE"
+    }
+  ],
+  "baseline_warn_pct": 15,
+  "operator_sj_drop_warn_pct": 40,
+  "active_now_days": 7,
+  "active_horizon_start_days": 14,
+  "active_horizon_days": 7,
+  "expired_warn_pct": 20,
+  "expiring_warn_pct": 50,
+  "expiring_min_sj": 50,
+  "level_consistency_tol_pct": 10,
+  "operator_aliases": {
+    "IT-ITF3-BUSITALIA_CAMPANIA": "IT:ITF3:Operator:06667530486:SA0057"
+  }
+}

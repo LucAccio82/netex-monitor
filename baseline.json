@@ -1,0 +1,34 @@
+{
+  "NUT-ITF3": {
+    "region": "Campania",
+    "metric": "sj_active_horizon",
+    "value": 55139,
+    "level": "LVL-1",
+    "file": "IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip",
+    "set_at": "2026-11-17T11:00:06",
+    "set_by": "migrazione 17/11 (L1 del 01/11, il feed piu' completo)",
+    "legacy_otp": {
+      "region": "Campania",
+      "stops": 21412,
+      "patterns": 4975,
+      "file": "IT-CCISS-NeTEx_L2_ITF3_610170400_2026_10_17_09_15_51.xml.zip",
+      "set_at": "2026-11-12 (manuale, valori del build 21/10 su snapshot 17/10)"
+    }
+  },
+  "NUT-ITC1": {
+    "region": "Piemonte",
+    "metric": "sj_active_horizon",
+    "value": 39621,
+    "level": "LVL-2",
+    "file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
+    "set_at": "2026-11-17T11:00:06",
+    "set_by": "migrazione 17/11 (L2 del 17/11)",
+    "legacy_otp": {
+      "region": "Piemonte",
+      "stops": 19378,
+      "patterns": 4763,
+      "file": "IT-CCISS-NeTEx_L2_ITC1_611120300_2026_11_12_08_46_33.xml.zip",
+      "set_at": "2026-11-12T10:14:15"
+    }
+  }
+}

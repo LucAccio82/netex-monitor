@@ -1,0 +1,9 @@
+# snapshot scaricati e file di lavoro (non vanno nel repository)
+work/
+*.zip
+*.part
+graph.obj
+streetGraph.obj
+*.osm.pbf
+__pycache__/
+*.pyc
