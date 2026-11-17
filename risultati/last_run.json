@@ -1,5 +1,5 @@
 {
-  "run_at": "2026-11-17T15:27:38",
+  "run_at": "2026-11-17T16:34:24",
   "dry_run": false,
   "regions": [
     {
@@ -24,15 +24,21 @@
         }
       },
       "notes": [],
-      "consistency_warnings": [],
+      "consistency_warnings": [
+        "incoerenza livelli: A.T.C. AZIENDA TRASPORTI CAMPANI S.R.L. ha 117 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: AIR CAMPANIA ha 4,977 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: ALILAURO ha 13,898 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: AZIENDA NAPOLETANA MOBILITÀ ha 24,355 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: CO.SA.T. SOCIETÀ CONSORTILE A R. L. ha 1,051 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: ENTE  AUTONOMO VOLTURNO ha 8,430 corse attive in L1 e solo 713 in L2 (-92%)"
+      ],
       "levels": [
         {
           "level": 1,
           "snapshot_id": "NUT-ITF3.LVL-1",
-          "status": "no_update",
+          "status": "feed_warning",
           "remote_modification_time": "2026-11-01T06:46:52.934+00:00",
           "remote_file": "IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip",
-          "current_file": "IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip",
           "feed": {
             "ref_date": "2026-11-17",
             "windows": {
@@ -54,19 +60,23 @@
             "sj_expired_pct": 15.4,
             "operators_with_lines": 9
           },
-          "transit_stats": {
-            "stops": 26847,
-            "patterns": 6173,
-            "fonte": "build manuale di Luca, 17/11/2026"
-          }
+          "operators_attention": {},
+          "baseline_delta": {
+            "baseline": 55139,
+            "current": 55139,
+            "change_pct": 0.0
+          },
+          "warnings": [
+            "orari in scadenza: BA0007 ha 2,075 corse attive nei prossimi giorni ma 0 tra 2026-12-01 e 2026-12-07",
+            "orari in scadenza: BUSITALIA CAMPANIA ha 3,710 corse attive nei prossimi giorni ma 0 tra 2026-12-01 e 2026-12-07"
+          ]
         },
         {
           "level": 2,
           "snapshot_id": "NUT-ITF3.LVL-2",
-          "status": "no_update",
+          "status": "feed_warning",
           "remote_modification_time": "2026-10-30T07:21:18.147+00:00",
           "remote_file": "IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip",
-          "current_file": "IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip",
           "feed": {
             "ref_date": "2026-11-17",
             "windows": {
@@ -88,15 +98,17 @@
             "sj_expired_pct": 78.2,
             "operators_with_lines": 3
           },
-          "transit_stats": {
-            "stops": 5759,
-            "patterns": 1809,
-            "constrained_transfers": 0,
-            "vertices": 515362,
-            "edges": 1303477,
-            "isolated_stops": 198,
-            "transfers": 43540
-          }
+          "operators_attention": {},
+          "baseline_delta": {
+            "baseline": 55139,
+            "current": 3024,
+            "change_pct": -94.5
+          },
+          "warnings": [
+            "orari scaduti: 10,856 corse su 13,885 (78%) non hanno piu' giorni di servizio",
+            "operatore senza servizio attivo: BA0007 (28 linee, 2,197 corse, 2,197 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
+            "contenuto: 3,024 corse attive a 2-3 settimane vs baseline 55,139 (-94%)"
+          ]
         }
       ]
     },
@@ -182,17 +194,15 @@
             "operatore senza servizio attivo: RYANAIR (62 linee, 370 corse, 370 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
             "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
             "operatore senza servizio attivo: TRENITALIA (7 linee, 3,992 corse, 3,992 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-            "operatore senza servizio attivo: WIZZ AIR (20 linee, 148 corse, 148 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-            "contenuto: NeTEX cresciuto oltre la baseline (corse attive a 2-3 settimane 39,621 -> 45,994, +16%); baseline aggiornata verso l'alto"
+            "operatore senza servizio attivo: WIZZ AIR (20 linee, 148 corse, 148 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)"
           ]
         },
         {
           "level": 2,
           "snapshot_id": "NUT-ITC1.LVL-2",
-          "status": "no_update",
+          "status": "feed_warning",
           "remote_modification_time": "2026-11-17T08:12:12.834+00:00",
           "remote_file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
-          "current_file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
           "feed": {
             "ref_date": "2026-11-17",
             "windows": {
@@ -214,17 +224,16 @@
             "sj_expired_pct": 12.6,
             "operators_with_lines": 21
           },
-          "transit_stats": {
-            "stops": 19378,
-            "patterns": 4763,
-            "constrained_transfers": 0,
-            "vertices": 2838011,
-            "edges": 7316650,
-            "patterns_removed": 873,
-            "patterns_total_in_feed": 5636,
-            "isolated_stops": 126,
-            "transfers": 332947
-          }
+          "operators_attention": {},
+          "baseline_delta": {
+            "baseline": 45994,
+            "current": 39621,
+            "change_pct": -13.9
+          },
+          "warnings": [
+            "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
+            "operatore senza servizio attivo: TRENITALIA (7 linee, 3,149 corse, 3,149 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)"
+          ]
         }
       ]
     }
