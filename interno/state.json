@@ -162,11 +162,11 @@
     }
   },
   "NUT-ITC1.LVL-2": {
-    "modification_time": "2026-11-17T08:12:12.834+00:00",
-    "file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
-    "sha256": "784846a9bc05a5ef56215e71c8b143060829f9324818dfc3d14194aec4b1c9b9",
+    "modification_time": "2026-11-18T07:36:27.778+00:00",
+    "file": "IT-CCISS-NeTEx_L2_ITC1_611180300_2026_11_18_08_34_59.xml.zip",
+    "sha256": "b42d3a2025b0b4ff1a2beb6d0b95e1c5adfd9ac9e81d341e3e2d4e9ee9546c0d",
     "last_status": "feed_warning",
-    "checked_at": "2026-11-17T16:43:33",
+    "checked_at": "2026-11-18T15:35:45",
     "transit_stats": {
       "stops": 19378,
       "patterns": 4763,
@@ -179,55 +179,55 @@
       "transfers": 332947
     },
     "feed": {
-      "ref_date": "2026-11-17",
+      "ref_date": "2026-11-18",
       "windows": {
         "now": [
-          "2026-11-17",
-          "2026-11-23"
+          "2026-11-18",
+          "2026-11-24"
         ],
         "horizon": [
-          "2026-12-01",
-          "2026-12-07"
+          "2026-12-02",
+          "2026-12-08"
         ]
       },
       "lines": 611,
-      "stop_places": 19378,
-      "service_journeys": 76568,
-      "sj_active_now": 49906,
-      "sj_active_horizon": 39621,
-      "sj_expired": 9671,
-      "sj_expired_pct": 12.6,
+      "stop_places": 19382,
+      "service_journeys": 70614,
+      "sj_active_now": 50198,
+      "sj_active_horizon": 39458,
+      "sj_expired": 3805,
+      "sj_expired_pct": 5.4,
       "operators_with_lines": 21
     },
     "warnings": [
-      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,149 corse, 3,149 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)"
+      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)",
+      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,149 corse, 3,149 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)"
     ],
-    "warnings_date": "2026-11-17",
+    "warnings_date": "2026-11-18",
     "operator_stats": {
-      "file": "IT-CCISS-NeTEx_L2_ITC1_611170300_2026_11_17_09_10_09.xml.zip",
-      "seconds": 19,
-      "ref_date": "2026-11-17",
+      "file": "IT-CCISS-NeTEx_L2_ITC1_611180300_2026_11_18_08_34_59.xml.zip",
+      "seconds": 36,
+      "ref_date": "2026-11-18",
       "windows": {
         "now": [
-          "2026-11-17",
-          "2026-11-23"
+          "2026-11-18",
+          "2026-11-24"
         ],
         "horizon": [
-          "2026-12-01",
-          "2026-12-07"
+          "2026-12-02",
+          "2026-12-08"
         ]
       },
       "totals": {
         "Line": 611,
-        "StopPlace": 19378,
-        "ServiceJourney": 76568,
-        "sj_active_now": 49906,
-        "sj_active_horizon": 39621,
-        "sj_expired": 9671,
-        "DayType": 4309,
+        "StopPlace": 19382,
+        "ServiceJourney": 70614,
+        "sj_active_now": 50198,
+        "sj_active_horizon": 39458,
+        "sj_expired": 3805,
+        "DayType": 4308,
         "unattributed_sj": 0,
-        "sj_expired_pct": 12.6
+        "sj_expired_pct": 5.4
       },
       "operators": {
         "IT:ITC1:Operator:_Business_Owner_at_Location": {
@@ -274,7 +274,7 @@
           "lines": 68,
           "service_journeys": 1382,
           "sj_active_now": 1238,
-          "sj_active_horizon": 1290,
+          "sj_active_horizon": 1370,
           "sj_expired": 0,
           "modes": {
             "bus": 68
@@ -338,7 +338,7 @@
           "lines": 30,
           "service_journeys": 1655,
           "sj_active_now": 1590,
-          "sj_active_horizon": 1645,
+          "sj_active_horizon": 1633,
           "sj_expired": 0,
           "modes": {
             "bus": 30
@@ -416,7 +416,7 @@
           "lines": 25,
           "service_journeys": 291,
           "sj_active_now": 291,
-          "sj_active_horizon": 291,
+          "sj_active_horizon": 284,
           "sj_expired": 0,
           "modes": {
             "bus": 25
@@ -728,10 +728,10 @@
             "IT:ITC1:Operator:08559940013:1:op:1"
           ],
           "lines": 297,
-          "service_journeys": 66221,
-          "sj_active_now": 43177,
-          "sj_active_horizon": 32818,
-          "sj_expired": 6267,
+          "service_journeys": 60267,
+          "sj_active_now": 43469,
+          "sj_active_horizon": 32619,
+          "sj_expired": 401,
           "modes": {
             "bus": 296,
             "metro": 1
@@ -829,7 +829,7 @@
           "lines": 4,
           "service_journeys": 44,
           "sj_active_now": 44,
-          "sj_active_horizon": 44,
+          "sj_active_horizon": 40,
           "sj_expired": 0,
           "modes": {
             "bus": 4
@@ -1055,7 +1055,7 @@
           "lines": 32,
           "service_journeys": 1213,
           "sj_active_now": 1213,
-          "sj_active_horizon": 1188,
+          "sj_active_horizon": 1167,
           "sj_expired": 0,
           "modes": {
             "bus": 32
@@ -1421,67 +1421,67 @@
     }
   },
   "NUT-ITC1.LVL-1": {
-    "modification_time": "2026-11-17T07:31:59.746+00:00",
-    "file": "IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip",
-    "sha256": "1a5c3d1f5d87d6ae42f704480e31c5c826afe043a04bdc5ed0eec6c15601ea8a",
+    "modification_time": "2026-11-18T07:10:25.321+00:00",
+    "file": "IT-CCISS-NeTEx_L1_ITC1_611180300_2026_11_18_08_08_44.xml.zip",
+    "sha256": "a62efbf7cfa41faa6cb5a89334099969cf8a0c9c498f55bb6e7f1e030ae895a2",
     "last_status": "feed_warning",
-    "checked_at": "2026-11-17T16:43:33",
+    "checked_at": "2026-11-18T15:35:45",
     "transit_stats": null,
     "feed": {
-      "ref_date": "2026-11-17",
+      "ref_date": "2026-11-18",
       "windows": {
         "now": [
-          "2026-11-17",
-          "2026-11-23"
+          "2026-11-18",
+          "2026-11-24"
         ],
         "horizon": [
-          "2026-12-01",
-          "2026-12-07"
+          "2026-12-02",
+          "2026-12-08"
         ]
       },
       "lines": 1133,
-      "stop_places": 30026,
-      "service_journeys": 85452,
-      "sj_active_now": 55888,
-      "sj_active_horizon": 45994,
-      "sj_expired": 12098,
-      "sj_expired_pct": 14.2,
+      "stop_places": 30030,
+      "service_journeys": 79498,
+      "sj_active_now": 56180,
+      "sj_active_horizon": 45795,
+      "sj_expired": 6232,
+      "sj_expired_pct": 7.8,
       "operators_with_lines": 57
     },
     "warnings": [
-      "operatore senza servizio attivo: ITA (2 linee, 56 corse, 56 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-      "operatore senza servizio attivo: LUFTHANSA (4 linee, 50 corse, 50 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-      "operatore senza servizio attivo: Nav lago maggiore (69 linee, 735 corse, 735 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-      "operatore senza servizio attivo: RYANAIR (62 linee, 370 corse, 370 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,992 corse, 3,992 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)",
-      "operatore senza servizio attivo: WIZZ AIR (20 linee, 148 corse, 148 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-01 e 2026-12-07)"
+      "operatore senza servizio attivo: ITA (2 linee, 56 corse, 56 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)",
+      "operatore senza servizio attivo: LUFTHANSA (4 linee, 50 corse, 50 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)",
+      "operatore senza servizio attivo: Nav lago maggiore (69 linee, 735 corse, 735 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)",
+      "operatore senza servizio attivo: RYANAIR (62 linee, 370 corse, 370 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)",
+      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)",
+      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,992 corse, 3,992 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)",
+      "operatore senza servizio attivo: WIZZ AIR (20 linee, 148 corse, 148 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-02 e 2026-12-08)"
     ],
-    "warnings_date": "2026-11-17",
+    "warnings_date": "2026-11-18",
     "operator_stats": {
-      "file": "IT-CCISS-NeTEx_L1_ITC1_611170300_2026_11_17_08_29_23.xml.zip",
-      "seconds": 20,
-      "ref_date": "2026-11-17",
+      "file": "IT-CCISS-NeTEx_L1_ITC1_611180300_2026_11_18_08_08_44.xml.zip",
+      "seconds": 36,
+      "ref_date": "2026-11-18",
       "windows": {
         "now": [
-          "2026-11-17",
-          "2026-11-23"
+          "2026-11-18",
+          "2026-11-24"
         ],
         "horizon": [
-          "2026-12-01",
-          "2026-12-07"
+          "2026-12-02",
+          "2026-12-08"
         ]
       },
       "totals": {
         "Line": 1133,
-        "StopPlace": 30026,
-        "ServiceJourney": 85452,
-        "sj_active_now": 55888,
-        "sj_active_horizon": 45994,
-        "sj_expired": 12098,
-        "DayType": 10799,
+        "StopPlace": 30030,
+        "ServiceJourney": 79498,
+        "sj_active_now": 56180,
+        "sj_active_horizon": 45795,
+        "sj_expired": 6232,
+        "DayType": 10798,
         "unattributed_sj": 0,
-        "sj_expired_pct": 14.2
+        "sj_expired_pct": 7.8
       },
       "operators": {
         "IT:ITC1:Operator:_Business_Owner_at_Location": {
@@ -1528,7 +1528,7 @@
           "lines": 68,
           "service_journeys": 1382,
           "sj_active_now": 1238,
-          "sj_active_horizon": 1290,
+          "sj_active_horizon": 1370,
           "sj_expired": 0,
           "modes": {
             "bus": 68
@@ -1661,7 +1661,7 @@
           "lines": 30,
           "service_journeys": 1655,
           "sj_active_now": 1590,
-          "sj_active_horizon": 1645,
+          "sj_active_horizon": 1633,
           "sj_expired": 0,
           "modes": {
             "bus": 30
@@ -1751,7 +1751,7 @@
           "lines": 27,
           "service_journeys": 408,
           "sj_active_now": 391,
-          "sj_active_horizon": 400,
+          "sj_active_horizon": 395,
           "sj_expired": 0,
           "modes": {
             "bus": 27
@@ -1765,7 +1765,7 @@
           "lines": 11,
           "service_journeys": 229,
           "sj_active_now": 205,
-          "sj_active_horizon": 225,
+          "sj_active_horizon": 223,
           "sj_expired": 0,
           "modes": {
             "bus": 11
@@ -1821,7 +1821,7 @@
           "lines": 25,
           "service_journeys": 291,
           "sj_active_now": 291,
-          "sj_active_horizon": 291,
+          "sj_active_horizon": 284,
           "sj_expired": 0,
           "modes": {
             "bus": 25
@@ -1989,7 +1989,7 @@
           "lines": 187,
           "service_journeys": 3734,
           "sj_active_now": 3455,
-          "sj_active_horizon": 3690,
+          "sj_active_horizon": 3678,
           "sj_expired": 0,
           "modes": {
             "bus": 187
@@ -2043,7 +2043,7 @@
           "lines": 8,
           "service_journeys": 110,
           "sj_active_now": 110,
-          "sj_active_horizon": 98,
+          "sj_active_horizon": 92,
           "sj_expired": 0,
           "modes": {
             "bus": 8
@@ -2057,7 +2057,7 @@
           "lines": 21,
           "service_journeys": 858,
           "sj_active_now": 768,
-          "sj_active_horizon": 858,
+          "sj_active_horizon": 853,
           "sj_expired": 0,
           "modes": {
             "bus": 21
@@ -2291,10 +2291,10 @@
             "IT:ITC1:Operator:08559940013:1:op:1"
           ],
           "lines": 297,
-          "service_journeys": 66221,
-          "sj_active_now": 43177,
-          "sj_active_horizon": 32818,
-          "sj_expired": 6267,
+          "service_journeys": 60267,
+          "sj_active_now": 43469,
+          "sj_active_horizon": 32619,
+          "sj_expired": 401,
           "modes": {
             "bus": 296,
             "metro": 1
@@ -2320,7 +2320,7 @@
           "lines": 7,
           "service_journeys": 157,
           "sj_active_now": 139,
-          "sj_active_horizon": 150,
+          "sj_active_horizon": 149,
           "sj_expired": 0,
           "modes": {
             "bus": 7
@@ -2488,7 +2488,7 @@
           "lines": 4,
           "service_journeys": 44,
           "sj_active_now": 44,
-          "sj_active_horizon": 44,
+          "sj_active_horizon": 40,
           "sj_expired": 0,
           "modes": {
             "bus": 4
@@ -2770,7 +2770,7 @@
           "lines": 7,
           "service_journeys": 106,
           "sj_active_now": 94,
-          "sj_active_horizon": 106,
+          "sj_active_horizon": 105,
           "sj_expired": 0,
           "modes": {
             "bus": 7
@@ -2848,7 +2848,7 @@
           "lines": 32,
           "service_journeys": 1213,
           "sj_active_now": 1213,
-          "sj_active_horizon": 1188,
+          "sj_active_horizon": 1167,
           "sj_expired": 0,
           "modes": {
             "bus": 32
@@ -2901,7 +2901,7 @@
           "lines": 12,
           "service_journeys": 160,
           "sj_active_now": 152,
-          "sj_active_horizon": 158,
+          "sj_active_horizon": 154,
           "sj_expired": 0,
           "modes": {
             "bus": 12
@@ -3087,22 +3087,22 @@
         "incoerenza livelli: ACTP S.r.l. ha 13 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: Arenaways ha 28 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: Autolinee Acquesi ha 14 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: Autolinee Giachino S.r.l. ha 400 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: Autolinee Nuova Benese S.r.l. ha 225 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: Autolinee Giachino S.r.l. ha 395 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: Autolinee Nuova Benese S.r.l. ha 223 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: Autolinee Val Borbera ha 52 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: Autolinee Valle Pesio S.r.l. ha 46 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: BUS COMPANY ha 3,690 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: COAS ha 98 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: Consorzio GrandaBus ha 858 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: BUS COMPANY ha 3,678 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: COAS ha 92 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: Consorzio GrandaBus ha 853 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: Giors S.r.l. ha 18 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: GUNETTO Autolinee S.r.l. ha 150 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: GUNETTO Autolinee S.r.l. ha 149 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: Nuova S.A.A.R. S.r.l. ha 76 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: S.A.C. S.r.l. ha 213 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: SAV Autolinee S.r.l. ha 106 corse attive in L1 e nessuna in L2",
+        "incoerenza livelli: SAV Autolinee S.r.l. ha 105 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: STAC Autoticino ha 228 corse attive in L1 e nessuna in L2",
-        "incoerenza livelli: Trotta Bus ha 158 corse attive in L1 e nessuna in L2"
+        "incoerenza livelli: Trotta Bus ha 154 corse attive in L1 e nessuna in L2"
       ],
-      "date": "2026-11-17"
+      "date": "2026-11-18"
     }
   }
 }
