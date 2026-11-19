@@ -3,7 +3,7 @@
 Monitoraggio quotidiano degli snapshot **NeTEx** pubblicati dal NAP CCISS per la sperimentazione **MaaS4Italy**
 (`https://www.cciss.it/nap/public/api/v1/netex/db/snapshot`), livelli 1 e 2, per le regioni in `config.json`.
 
-Ogni giorno un workflow GitHub Actions controlla se ci sono nuove versioni; per ognuna scarica lo zip, ne analizza
+Ogni giorno (cron alle 06:23 e, di riserva, alle 10:41 UTC; GitHub puo' ritardarli di ore) un workflow GitHub Actions controlla se ci sono nuove versioni; per ognuna scarica lo zip, ne analizza
 il contenuto e salva qui i risultati. Il build in OpenTripPlanner (che richiede ~20 GB di RAM) per ora resta sul PC locale.
 
 **→ [Report con tabella, avvisi aperti e grafici](risultati/REPORT.md)** · [storico completo](risultati/history.csv)

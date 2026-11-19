@@ -2,9 +2,11 @@ name: Monitoraggio NeTEx
 
 on:
   schedule:
-    # 09:07 UTC = 10:07 ora italiana d'inverno, 11:07 con l'ora legale.
-    # GitHub puo' avviare i workflow pianificati con qualche minuto di ritardo.
-    - cron: "7 9 * * *"
+    # GitHub avvia i cron con ritardi anche di molte ore, soprattutto agli orari piu' richiesti (minuto :00, :07...).
+    # Due passaggi a minuti "insoliti": il secondo e' di riserva e, se il primo ha gia' analizzato le novita',
+    # trova "nessuna novita'" e non salva nulla.
+    - cron: "23 6 * * *"    # 07:23 UTC = 08:23 ora italiana d'inverno
+    - cron: "41 10 * * *"   # riserva: 10:41 UTC = 11:41 ora italiana d'inverno
   workflow_dispatch:
     inputs:
       opzioni:
