@@ -162,11 +162,11 @@
     }
   },
   "NUT-ITC1.LVL-2": {
-    "modification_time": "2026-11-19T06:58:30.245+00:00",
-    "file": "IT-CCISS-NeTEx_L2_ITC1_611180300_2026_11_19_07_57_48.xml.zip",
-    "sha256": "2d7d09de0a7b2d1c9e26ce8137b466eaa4a23251a72d4bf6ef45e24acd0cb37f",
+    "modification_time": "2026-11-20T07:08:33.154+00:00",
+    "file": "IT-CCISS-NeTEx_L2_ITC1_611200300_2026_11_20_08_07_23.xml.zip",
+    "sha256": "398fc4ab2d20b99746f2bdc5565ef328e0692cd50abff8c3d68dcb2b30de045c",
     "last_status": "feed_warning",
-    "checked_at": "2026-11-19T13:14:09",
+    "checked_at": "2026-11-20T16:03:56",
     "transit_stats": {
       "stops": 19378,
       "patterns": 4763,
@@ -179,15 +179,15 @@
       "transfers": 332947
     },
     "feed": {
-      "ref_date": "2026-11-19",
+      "ref_date": "2026-11-20",
       "windows": {
         "now": [
-          "2026-11-19",
-          "2026-11-25"
+          "2026-11-20",
+          "2026-11-26"
         ],
         "horizon": [
-          "2026-12-03",
-          "2026-12-09"
+          "2026-12-04",
+          "2026-12-10"
         ]
       },
       "lines": 611,
@@ -200,22 +200,22 @@
       "operators_with_lines": 21
     },
     "warnings": [
-      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)",
-      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,149 corse, 3,149 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)"
+      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)",
+      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,149 corse, 3,149 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)"
     ],
-    "warnings_date": "2026-11-19",
+    "warnings_date": "2026-11-20",
     "operator_stats": {
-      "file": "IT-CCISS-NeTEx_L2_ITC1_611180300_2026_11_19_07_57_48.xml.zip",
-      "seconds": 35,
-      "ref_date": "2026-11-19",
+      "file": "IT-CCISS-NeTEx_L2_ITC1_611200300_2026_11_20_08_07_23.xml.zip",
+      "seconds": 20,
+      "ref_date": "2026-11-20",
       "windows": {
         "now": [
-          "2026-11-19",
-          "2026-11-25"
+          "2026-11-20",
+          "2026-11-26"
         ],
         "horizon": [
-          "2026-12-03",
-          "2026-12-09"
+          "2026-12-04",
+          "2026-12-10"
         ]
       },
       "totals": {
@@ -1421,22 +1421,22 @@
     }
   },
   "NUT-ITC1.LVL-1": {
-    "modification_time": "2026-11-19T06:42:33.746+00:00",
-    "file": "IT-CCISS-NeTEx_L1_ITC1_611180300_2026_11_19_07_41_51.xml.zip",
-    "sha256": "3194db0f1279acd18779773c5be6b0b95fdf22a70e8151fff844b478c68378c0",
+    "modification_time": "2026-11-20T06:47:56.358+00:00",
+    "file": "IT-CCISS-NeTEx_L1_ITC1_611200300_2026_11_20_07_47_01.xml.zip",
+    "sha256": "88d490aa9f68f89ebedf41f642320b105c0928b82204f87002e72344ba8cf20c",
     "last_status": "feed_warning",
-    "checked_at": "2026-11-19T13:14:09",
+    "checked_at": "2026-11-20T16:03:56",
     "transit_stats": null,
     "feed": {
-      "ref_date": "2026-11-19",
+      "ref_date": "2026-11-20",
       "windows": {
         "now": [
-          "2026-11-19",
-          "2026-11-25"
+          "2026-11-20",
+          "2026-11-26"
         ],
         "horizon": [
-          "2026-12-03",
-          "2026-12-09"
+          "2026-12-04",
+          "2026-12-10"
         ]
       },
       "lines": 1133,
@@ -1449,27 +1449,27 @@
       "operators_with_lines": 57
     },
     "warnings": [
-      "operatore senza servizio attivo: ITA (2 linee, 56 corse, 56 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)",
-      "operatore senza servizio attivo: LUFTHANSA (4 linee, 50 corse, 50 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)",
-      "operatore senza servizio attivo: Nav lago maggiore (69 linee, 735 corse, 735 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)",
-      "operatore senza servizio attivo: RYANAIR (62 linee, 370 corse, 370 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)",
-      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)",
-      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,992 corse, 3,992 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)",
-      "operatore senza servizio attivo: WIZZ AIR (20 linee, 148 corse, 148 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-03 e 2026-12-09)"
+      "operatore senza servizio attivo: ITA (2 linee, 56 corse, 56 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)",
+      "operatore senza servizio attivo: LUFTHANSA (4 linee, 50 corse, 50 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)",
+      "operatore senza servizio attivo: Nav lago maggiore (69 linee, 735 corse, 735 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)",
+      "operatore senza servizio attivo: RYANAIR (62 linee, 370 corse, 370 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)",
+      "operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)",
+      "operatore senza servizio attivo: TRENITALIA (7 linee, 3,992 corse, 3,992 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)",
+      "operatore senza servizio attivo: WIZZ AIR (20 linee, 148 corse, 148 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-04 e 2026-12-10)"
     ],
-    "warnings_date": "2026-11-19",
+    "warnings_date": "2026-11-20",
     "operator_stats": {
-      "file": "IT-CCISS-NeTEx_L1_ITC1_611180300_2026_11_19_07_41_51.xml.zip",
-      "seconds": 36,
-      "ref_date": "2026-11-19",
+      "file": "IT-CCISS-NeTEx_L1_ITC1_611200300_2026_11_20_07_47_01.xml.zip",
+      "seconds": 21,
+      "ref_date": "2026-11-20",
       "windows": {
         "now": [
-          "2026-11-19",
-          "2026-11-25"
+          "2026-11-20",
+          "2026-11-26"
         ],
         "horizon": [
-          "2026-12-03",
-          "2026-12-09"
+          "2026-12-04",
+          "2026-12-10"
         ]
       },
       "totals": {
@@ -3102,7 +3102,7 @@
         "incoerenza livelli: STAC Autoticino ha 228 corse attive in L1 e nessuna in L2",
         "incoerenza livelli: Trotta Bus ha 154 corse attive in L1 e nessuna in L2"
       ],
-      "date": "2026-11-19"
+      "date": "2026-11-20"
     }
   }
 }
