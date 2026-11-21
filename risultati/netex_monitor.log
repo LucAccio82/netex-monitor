@@ -495,3 +495,10 @@
 2026-11-21 14:54:13,183 WARNING [NUT-ITC1] incoerenza livelli: STAC Autoticino ha 228 corse attive in L1 e nessuna in L2
 2026-11-21 14:54:13,183 WARNING [NUT-ITC1] incoerenza livelli: Trotta Bus ha 154 corse attive in L1 e nessuna in L2
 2026-11-21 14:54:13,188 INFO === fine: Campania=L1:no_update,L2:no_update; Piemonte=L1:feed_warning,L2:feed_warning ===
+2026-11-21 17:46:52,519 INFO === avvio controllo (dry_run=False, force=False) ===
+2026-11-21 17:46:53,929 INFO API ok: 52 snapshot
+2026-11-21 17:46:53,930 INFO [NUT-ITF3.LVL-1] remoto: 2026-11-01T06:46:52.934+00:00 (IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip) | noto: 2026-11-01T06:46:52.934+00:00
+2026-11-21 17:46:53,930 INFO [NUT-ITF3.LVL-2] remoto: 2026-10-30T07:21:18.147+00:00 (IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip) | noto: 2026-10-30T07:21:18.147+00:00
+2026-11-21 17:46:53,930 INFO [NUT-ITC1.LVL-1] remoto: 2026-11-21T07:21:59.334+00:00 (IT-CCISS-NeTEx_L1_ITC1_611210300_2026_11_21_08_20_17.xml.zip) | noto: 2026-11-21T07:21:59.334+00:00
+2026-11-21 17:46:53,930 INFO [NUT-ITC1.LVL-2] remoto: 2026-11-21T07:46:47.760+00:00 (IT-CCISS-NeTEx_L2_ITC1_611210300_2026_11_21_08_45_36.xml.zip) | noto: 2026-11-21T07:46:47.760+00:00
+2026-11-21 17:46:53,932 INFO === fine: Campania=L1:no_update,L2:no_update; Piemonte=L1:no_update,L2:no_update ===
