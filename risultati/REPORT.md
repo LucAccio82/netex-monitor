@@ -1,6 +1,6 @@
 # Report monitoraggio NeTEx
 
-Ultimo controllo: **2026-11-24 17:55:38**  ·  generato il 24/11/2026 19:08
+Ultimo controllo: **2026-11-24 20:52:45**  ·  generato il 24/11/2026 20:52
 
 *Corse attive a 2-3 settimane* = corse con almeno un giorno di servizio tra il 14° e il 20° giorno dalla data dell'analisi. La *baseline* è il valore del feed più completo conosciuto per la regione.
 
@@ -10,8 +10,8 @@ Ultimo controllo: **2026-11-24 17:55:38**  ·  generato il 24/11/2026 19:08
 |---|---|---|---|--:|--:|--:|--:|--:|--:|---|
 | Campania | L1 | 01/11/2026 | nessuna novità | 9 | 74.828 | 60.854 | 55.139 | +0% | 15% | 17/11 |
 | Campania | L2 | 30/10/2026 | nessuna novità | 3 | 13.885 | 3.024 | 3.024 | -95% | 78% | 17/11 |
-| Piemonte | L1 | 24/11/2026 | ⚠️ avvisi | 57 | 79.193 | 45.789 | 45.487 | -1% | 40% | 24/11 |
-| Piemonte | L2 | 24/11/2026 | ⚠️ avvisi | 21 | 70.287 | 39.758 | 39.474 | -14% | 42% | 24/11 |
+| Piemonte | L1 | 24/11/2026 | nessuna novità | 57 | 79.193 | 45.789 | 45.487 | -1% | 40% | 24/11 |
+| Piemonte | L2 | 24/11/2026 | nessuna novità | 21 | 70.287 | 39.758 | 39.474 | -14% | 42% | 24/11 |
 
 Baseline: Campania **55.139** (L1, 01/11/2026), Piemonte **45.994** (L1, 17/11/2026)
 
