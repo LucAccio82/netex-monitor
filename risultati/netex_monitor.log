@@ -953,3 +953,74 @@
 2026-11-26 19:49:50,732 INFO [NUT-ITC1.LVL-1] remoto: 2026-11-26T06:54:44.360+00:00 (IT-CCISS-NeTEx_L1_ITC1_611260300_2026_11_26_07_53_56.xml.zip) | noto: 2026-11-26T06:54:44.360+00:00
 2026-11-26 19:49:50,732 INFO [NUT-ITC1.LVL-2] remoto: 2026-11-26T07:11:37.238+00:00 (IT-CCISS-NeTEx_L2_ITC1_611260300_2026_11_26_08_11_09.xml.zip) | noto: 2026-11-26T07:11:37.238+00:00
 2026-11-26 19:49:50,741 INFO === fine: Campania=L1:no_update,L2:no_update; Piemonte=L1:no_update,L2:no_update ===
+2026-11-27 16:49:26,363 INFO === avvio controllo (dry_run=False, force=False) ===
+2026-11-27 16:49:28,057 INFO API ok: 52 snapshot
+2026-11-27 16:49:28,057 INFO [NUT-ITF3.LVL-1] remoto: 2026-11-01T06:46:52.934+00:00 (IT-CCISS-NeTEx_L1_ITF3_611010300_2026_11_01_07_46_19.xml.zip) | noto: 2026-11-01T06:46:52.934+00:00
+2026-11-27 16:49:28,057 INFO [NUT-ITF3.LVL-2] remoto: 2026-10-30T07:21:18.147+00:00 (IT-CCISS-NeTEx_L2_ITF3_610300300_2026_10_30_08_21_04.xml.zip) | noto: 2026-10-30T07:21:18.147+00:00
+2026-11-27 16:49:28,058 INFO [NUT-ITC1.LVL-1] remoto: 2026-11-27T06:58:19.265+00:00 (IT-CCISS-NeTEx_L1_ITC1_611270300_2026_11_27_07_57_57.xml.zip) | noto: 2026-11-26T06:54:44.360+00:00
+2026-11-27 16:49:28,058 INFO [NUT-ITC1.LVL-1] download https://www.cciss.it/nap/public/api/export/611270300/IT-CCISS-NeTEx_L1_ITC1_611270300_2026_11_27_07_57_57.xml.zip -> /home/runner/work/netex-monitor/netex-monitor/work/PIEMONTE/IT-CCISS-NeTEx_L1_ITC1_611270300_2026_11_27_07_57_57.xml.zip
+2026-11-27 16:49:28,058 INFO [NUT-ITC1.LVL-1] tentativo di download 1/3 (stallo max 90 s, durata max 3600 s)
+2026-11-27 16:49:28,058 INFO [NUT-ITC1.LVL-1] connessione in corso...
+2026-11-27 16:49:29,803 INFO [NUT-ITC1.LVL-1] risposta HTTP 200 dopo 1.7 s | Content-Length=57.4 MB | Content-Type=application/zip
+2026-11-27 16:51:02,394 INFO [NUT-ITC1.LVL-1] scaricati 5.0 / 57.4 MB in 94 s (0.05 MB/s)
+2026-11-27 16:52:35,661 INFO [NUT-ITC1.LVL-1] scaricati 10.0 / 57.4 MB in 188 s (0.05 MB/s)
+2026-11-27 16:53:58,381 INFO [NUT-ITC1.LVL-1] scaricati 15.0 / 57.4 MB in 270 s (0.06 MB/s)
+2026-11-27 16:55:16,023 INFO [NUT-ITC1.LVL-1] scaricati 20.0 / 57.4 MB in 348 s (0.06 MB/s)
+2026-11-27 16:56:18,936 INFO [NUT-ITC1.LVL-1] scaricati 25.0 / 57.4 MB in 411 s (0.06 MB/s)
+2026-11-27 16:57:21,879 INFO [NUT-ITC1.LVL-1] scaricati 30.0 / 57.4 MB in 474 s (0.06 MB/s)
+2026-11-27 16:59:14,611 INFO [NUT-ITC1.LVL-1] scaricati 35.0 / 57.4 MB in 587 s (0.06 MB/s)
+2026-11-27 17:01:34,013 INFO [NUT-ITC1.LVL-1] scaricati 40.0 / 57.4 MB in 726 s (0.06 MB/s)
+2026-11-27 17:03:10,767 INFO [NUT-ITC1.LVL-1] scaricati 45.0 / 57.4 MB in 823 s (0.05 MB/s)
+2026-11-27 17:04:41,120 INFO [NUT-ITC1.LVL-1] scaricati 50.0 / 57.4 MB in 913 s (0.05 MB/s)
+2026-11-27 17:06:21,052 INFO [NUT-ITC1.LVL-1] scaricati 55.0 / 57.4 MB in 1013 s (0.05 MB/s)
+2026-11-27 17:07:57,191 INFO [NUT-ITC1.LVL-1] trasferimento chiuso: 57.4 MB in 1109 s
+2026-11-27 17:07:57,191 INFO [NUT-ITC1.LVL-1] download completato (57.4 MB), hash verificato
+2026-11-27 17:08:32,812 INFO [NUT-ITC1.LVL-1] analisi feed: 57 operatori con linee, 1,134 linee, 79,189 corse (45,747 attive 7gg, 45,751 attive 2026-12-11..2026-12-17, 41.0% scadute) in 36 s
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] orari scaduti: 32,474 corse su 79,189 (41%) non hanno piu' giorni di servizio
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] operatore senza servizio attivo: ITA (2 linee, 56 corse, 56 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] operatore senza servizio attivo: LUFTHANSA (4 linee, 50 corse, 50 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] operatore senza servizio attivo: Nav lago maggiore (69 linee, 735 corse, 735 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] operatore senza servizio attivo: RYANAIR (62 linee, 370 corse, 370 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] operatore senza servizio attivo: TRENITALIA (7 linee, 3,992 corse, 3,992 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:08:32,813 WARNING [NUT-ITC1.LVL-1] operatore senza servizio attivo: WIZZ AIR (20 linee, 148 corse, 148 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:08:32,813 INFO [NUT-ITC1.LVL-2] remoto: 2026-11-27T07:13:45.328+00:00 (IT-CCISS-NeTEx_L2_ITC1_611270300_2026_11_27_08_13_10.xml.zip) | noto: 2026-11-26T07:11:37.238+00:00
+2026-11-27 17:08:32,813 INFO [NUT-ITC1.LVL-2] download https://www.cciss.it/nap/public/api/export/611270300/IT-CCISS-NeTEx_L2_ITC1_611270300_2026_11_27_08_13_10.xml.zip -> /home/runner/work/netex-monitor/netex-monitor/work/PIEMONTE/IT-CCISS-NeTEx_L2_ITC1_611270300_2026_11_27_08_13_10.xml.zip
+2026-11-27 17:08:32,813 INFO [NUT-ITC1.LVL-2] tentativo di download 1/3 (stallo max 90 s, durata max 3600 s)
+2026-11-27 17:08:32,814 INFO [NUT-ITC1.LVL-2] connessione in corso...
+2026-11-27 17:08:34,659 INFO [NUT-ITC1.LVL-2] risposta HTTP 200 dopo 1.8 s | Content-Length=56.2 MB | Content-Type=application/zip
+2026-11-27 17:08:43,003 INFO [NUT-ITC1.LVL-2] scaricati 5.0 / 56.2 MB in 10 s (0.49 MB/s)
+2026-11-27 17:08:51,326 INFO [NUT-ITC1.LVL-2] scaricati 10.0 / 56.2 MB in 19 s (0.54 MB/s)
+2026-11-27 17:08:59,674 INFO [NUT-ITC1.LVL-2] scaricati 15.0 / 56.2 MB in 27 s (0.56 MB/s)
+2026-11-27 17:09:08,013 INFO [NUT-ITC1.LVL-2] scaricati 20.0 / 56.2 MB in 35 s (0.57 MB/s)
+2026-11-27 17:09:16,377 INFO [NUT-ITC1.LVL-2] scaricati 25.0 / 56.2 MB in 44 s (0.57 MB/s)
+2026-11-27 17:09:24,736 INFO [NUT-ITC1.LVL-2] scaricati 30.0 / 56.2 MB in 52 s (0.58 MB/s)
+2026-11-27 17:09:33,065 INFO [NUT-ITC1.LVL-2] scaricati 35.0 / 56.2 MB in 60 s (0.58 MB/s)
+2026-11-27 17:09:41,377 INFO [NUT-ITC1.LVL-2] scaricati 40.0 / 56.2 MB in 69 s (0.58 MB/s)
+2026-11-27 17:09:49,730 INFO [NUT-ITC1.LVL-2] scaricati 45.0 / 56.2 MB in 77 s (0.59 MB/s)
+2026-11-27 17:09:58,092 INFO [NUT-ITC1.LVL-2] scaricati 50.0 / 56.2 MB in 85 s (0.59 MB/s)
+2026-11-27 17:10:06,428 INFO [NUT-ITC1.LVL-2] scaricati 55.0 / 56.2 MB in 94 s (0.59 MB/s)
+2026-11-27 17:10:08,405 INFO [NUT-ITC1.LVL-2] trasferimento chiuso: 56.2 MB in 96 s
+2026-11-27 17:10:08,406 INFO [NUT-ITC1.LVL-2] download completato (56.2 MB), hash verificato
+2026-11-27 17:10:43,158 INFO [NUT-ITC1.LVL-2] analisi feed: 21 operatori con linee, 611 linee, 70,283 corse (39,716 attive 7gg, 39,716 attive 2026-12-11..2026-12-17, 42.8% scadute) in 35 s
+2026-11-27 17:10:43,158 WARNING [NUT-ITC1.LVL-2] orari scaduti: 30,047 corse su 70,283 (43%) non hanno piu' giorni di servizio
+2026-11-27 17:10:43,158 WARNING [NUT-ITC1.LVL-2] operatore senza servizio attivo: S.T.A.C. - SOCIETA' TRASPORTI AUTOMOBILISTICI CASALESI (12 linee, 209 corse, 209 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:10:43,158 WARNING [NUT-ITC1.LVL-2] operatore senza servizio attivo: TRENITALIA (7 linee, 3,149 corse, 3,149 scadute, nessuna attiva nei prossimi giorni ne' tra 2026-12-11 e 2026-12-17)
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: ACTP S.r.l. ha 13 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Arenaways ha 28 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Autolinee Acquesi ha 14 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Autolinee Giachino S.r.l. ha 391 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Autolinee Nuova Benese S.r.l. ha 207 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Autolinee Val Borbera ha 52 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Autolinee Valle Pesio S.r.l. ha 44 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: BUS COMPANY ha 3,462 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: COAS ha 110 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Consorzio GrandaBus ha 798 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Giors S.r.l. ha 14 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: GUNETTO Autolinee S.r.l. ha 141 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: Nuova S.A.A.R. S.r.l. ha 71 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: S.A.C. S.r.l. ha 217 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,166 WARNING [NUT-ITC1] incoerenza livelli: SAV Autolinee S.r.l. ha 94 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,167 WARNING [NUT-ITC1] incoerenza livelli: STAC Autoticino ha 227 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,167 WARNING [NUT-ITC1] incoerenza livelli: Trotta Bus ha 152 corse attive in L1 e nessuna in L2
+2026-11-27 17:10:43,172 INFO === fine: Campania=L1:no_update,L2:no_update; Piemonte=L1:feed_warning,L2:feed_warning ===
